@@ -16,21 +16,16 @@ button {
 }
 
 .thumbnails {
-  height: 8vh;
-  width: 70vw;
-  display: flex;
+  height: 60px;
+  width: auto;
+  /* display: flex;
   position: absolute;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
-  bottom: 3vh;
-  left: 13%;
-  background-color: black;
-  padding-left: 5px;
-  padding-right: 5px;
+  overflow: scroll; */
 }
 
-#displayContainer img {
+.displayContainer {
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -39,6 +34,6 @@ button {
 
 /* child elements of the thumbnail class */
 .thumbnails > img {
-  height: 5vh;
+  height: 6vh;
   width: auto;
 }
