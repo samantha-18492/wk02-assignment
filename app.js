@@ -9,16 +9,16 @@ const images = [
     alt: "A Clown Anemonefish in a Bubble-head Anemone.",
   },
   {
-    src: "./assets/coral-reef.webp",
-    alt: "Coral reel life form, reminiscent of mushrooms.",
+    src: "./assets/starfish.webp",
+    alt: "A small starfish sitting on a rock.",
   },
   {
     src: "./assets/pufferfish.webp",
     alt: "A Pufferfish resting on the bottom of the sea.",
   },
   {
-    src: "./assets/starfish.webp",
-    alt: "A small starfish sitting on a rock.",
+    src: "./assets/coral-reef.webp",
+    alt: "Coral reel life form, reminiscent of mushrooms.",
   },
   {
     src: "./assets/mandarinfish.webp",
