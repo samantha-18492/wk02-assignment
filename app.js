@@ -54,24 +54,24 @@ function createBigImage(imgDetails) {
   displayContainer.appendChild(bigImage);
 }
 
-//buttons
+buttons;
 
-// const leftBtn = document.getElementById("leftBtn");
-// const rightBtn = document.getElementById("rightBtn");
+const leftBtn = document.getElementById("leftBtn");
+const rightBtn = document.getElementById("rightBtn");
 
-// //create index function
-// function selectNextImage(index) {
-//   currentImageIndex + -index;
+//create index function
+function selectNextImage(index) {
+  currentImageIndex += index;
 
-//   if (currentImageIndex >= images.length) currentImageIndex = 0;
-//   if (currentImageIndex < 0) currentImageIndex = images.length - 1;
-//   updateDisplayTime(images[currentImageIndex]);
-// }
+  if (currentImageIndex >= images.length) currentImageIndex = 0;
+  if (currentImageIndex < 0) currentImageIndex = images.length - 1;
+  updateDisplayTime(images[currentImageIndex]);
+}
 
-// leftBtn.addEventListener("click", function () {
-//   selectNextImage(1);
-// });
+leftBtn.addEventListener("click", function () {
+  selectNextImage(1);
+});
 
-// rightBtn.addEventListener("click", function () {
-//   selectNextImage(-1);
-// });
+rightBtn.addEventListener("click", function () {
+  selectNextImage(-1);
+});
