@@ -17,16 +17,12 @@ const images = [
     alt: "A Pufferfish resting on the bottom of the sea.",
   },
   {
-    src: "./assets/mandarinfish.webp",
-    alt: "A Mandarinfish at the Cairns Aquarium shows of its gorgeous colours and pattern, against a backdrop of white coral.",
-  },
-  {
-    src: "./assets/butterflyfish.webp",
-    alt: "A Cooperband Butterflyfish that lives on coral reefs.",
-  },
-  {
     src: "./assets/starfish.webp",
     alt: "A small starfish sitting on a rock.",
+  },
+  {
+    src: "./assets/mandarinfish.webp",
+    alt: "A Mandarinfish at the Cairns Aquarium shows of its gorgeous colours and pattern, against a backdrop of white coral.",
   },
 ];
 

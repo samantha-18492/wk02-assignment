@@ -3,7 +3,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   font-family: sans-serif;
-  /* background-color: black; */
+  background-color: black;
 }
 
 button {
@@ -16,18 +16,21 @@ button {
 }
 
 .thumbnails {
-  height: 8vh;
-  width: 70vw;
+  height: 60px;
+  width: auto;
   display: flex;
   position: absolute;
   justify-content: center;
   align-items: center;
   overflow: scroll;
   bottom: 3vh;
-  left: 13%;
+  left: 50%;
   background-color: black;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  gap: 8px;
+  transform: translateX(-50%);
+  border-radius: 5px;
 }
 
 #displayContainer img {
