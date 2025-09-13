@@ -39,7 +39,6 @@ function createThumbnails() {
     thumbnails.appendChild(imageElement);
   });
 }
-
 //function invoke
 createThumbnails();
 
@@ -54,24 +53,25 @@ function createBigImage(imgDetails) {
   displayContainer.appendChild(bigImage);
 }
 
-buttons;
+//create load function for larger image
+function loadImage() {
+  const bigImage = document.createElement("img");
+  bigImage.src = images[0].src;
+  bigImage.alt = images[0].alt;
+  displayContainer.appendChild(bigImage);
+}
+//function invoke
+loadImage();
 
+// buttons
 const leftBtn = document.getElementById("leftBtn");
 const rightBtn = document.getElementById("rightBtn");
-
-//create index function
-function selectNextImage(index) {
-  currentImageIndex += index;
-
-  if (currentImageIndex >= images.length) currentImageIndex = 0;
-  if (currentImageIndex < 0) currentImageIndex = images.length - 1;
-  updateDisplayTime(images[currentImageIndex]);
-}
+let currentImageIndex = 0;
 
 leftBtn.addEventListener("click", function () {
-  selectNextImage(1);
+  //move to next image +1 action;
 });
 
 rightBtn.addEventListener("click", function () {
-  selectNextImage(-1);
+  // move to previous image -1 action;
 });

@@ -60,7 +60,7 @@ button {
   width: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .thumbnails {
     top: 3vh;
     height: 100px;
